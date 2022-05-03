@@ -1,3 +1,4 @@
 1 - coca-cola;
 2 - guaraná;
 3 - água;
+4 - fanta;
