@@ -1,0 +1,21 @@
+h1{
+  font-family: sans-serif;
+
+}
+
+p{
+  font-weight: 600;
+  font-size: 3rem;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+body{
+  font-size: 16px;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+ul{
+  line-height: 40px;
+}
