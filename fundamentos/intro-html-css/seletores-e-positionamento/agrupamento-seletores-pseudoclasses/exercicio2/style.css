@@ -1,0 +1,29 @@
+div:hover{
+  border-style: groove;
+}
+
+#cor1{
+  background-color: aqua;
+}
+
+#cor2{
+  background-color: rebeccapurple;
+}
+
+#cor3{
+  background-color: olive;
+}
+
+#cor4{
+  background-color: orange;
+}
+
+#cor5{
+  background-color: palegoldenrod;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-style: oblique;
+}

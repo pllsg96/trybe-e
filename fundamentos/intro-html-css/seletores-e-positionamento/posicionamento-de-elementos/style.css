@@ -1,0 +1,46 @@
+body{
+  font-family: fantasy;
+  color: rgb(3,174,213);
+}
+
+#praia{
+  width: 450px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 1;
+}
+
+#walle{
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  z-index: 2;
+}
+
+#bone{
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 255px;
+  z-index: 3;
+}
+
+h1{
+  position: fixed;
+  z-index: 4;
+  left: 30px;
+}
+
+#song{
+  position: absolute;
+  z-index: 5;
+  top: 300px;
+}
+
+.prancha{
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}

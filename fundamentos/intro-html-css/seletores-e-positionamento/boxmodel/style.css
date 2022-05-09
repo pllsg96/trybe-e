@@ -1,0 +1,14 @@
+img {
+  width: 500px;
+}
+
+.cavalos-marinhos{
+  color: aqua;
+}
+
+.estilo-paragrafo{
+  background-color: blanchedalmond;
+  width: 50%;
+  height: 300px;
+  overflow: auto;
+}

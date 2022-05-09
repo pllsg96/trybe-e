@@ -1,0 +1,19 @@
+body{
+  background-color: blanchedalmond;
+}
+
+p, div{
+  font-family: monospace;
+}
+
+bauru-header{
+  font-family: serif;
+}
+
+li:hover {
+  background-color: green;
+}
+
+li:active{
+  color: white;
+}
