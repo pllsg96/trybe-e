@@ -1,0 +1,37 @@
+li{
+  background-color: yellow;
+}
+
+li:nth-last-of-type(2n+2){
+  background-color: green;
+}
+
+li:nth-last-of-type(2n+1) {
+  text-transform: uppercase;
+}
+
+.header{
+  color: red;
+}
+
+.header em{
+  font-size: 40px;
+  border: solid black 1px;
+}
+
+li{
+  font-size: 20px;
+}
+
+li em{
+  font-weight: bold;
+}
+
+.linguagens li:nth-child(-n+3){
+  color: aqua;
+
+}
+
+[li name *= 'Java'] {
+  background-color: pink;
+}
