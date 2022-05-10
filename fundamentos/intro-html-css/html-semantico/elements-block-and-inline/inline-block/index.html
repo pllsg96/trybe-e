@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diferenças block inline</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header id="header">Cabeçalho</header>
+  <nav id="nav">Links de navegação
+    <ul class="nav-links">
+      <li><a href="">Home</a></li>
+      <li><a href="">Contato</a></li>
+      <li><a href="">Perfil</a></li>
+    </ul>
+  </nav>
+  <main id="group">
+    <article id="article">
+      <h2>Entendendo a diferença entre elementos block</h2>
+      <section id="section">
+        <h3>Elementos block</h3>
+        <p><b>Exemplos:</b>article, div, section, ul, li, header</p>
+        <ul>
+          <li>Ocupam 100% da largura do elemento pai</li>
+          <li>Ocupam a própria linha, sendo posicionados abaixo do elemento anterior</li>
+          <li>A altura padrão é definida pelo tamanho do conteúdo</li>
+          <li>É possível alterar as propriedades de tamanho e largura</li>
+          <li>É possível alterar todas as propriedades de margem</li>
+        </ul>
+      </section>
+      <section id="section">
+        <h3>Elementos Inline</h3>
+        <p> 
+            <b>Exemplos:</b>
+            <span>a, span, b, i,</span> 
+            <i> etc...</i>
+        </p>
+        <ul>
+          <li>Ocupam largura do próprio conteúdo</li>
+          <li>Dois ou mais elementos inline em sequência, são posicionados lado a lado</li>
+          <li>Não é possível alterar as propriedades de altura e largura</li>
+          <li>Somente é possível alterar as margens horizontais</li>
+          <li>Ao aplicar float, automaticamente se transformam em elementos block</li>
+          <li>Se comporta como um texto</li>
+        </ul>
+      </section>
+    </article>
+    <aside id="aside">Barra lateral</aside>
+  </main>
+  <footer id="footer">Rodapé</footer>
+</body>
+</html>
