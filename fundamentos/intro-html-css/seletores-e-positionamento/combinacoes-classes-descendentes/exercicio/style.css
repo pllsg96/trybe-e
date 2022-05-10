@@ -1,3 +1,5 @@
+
+
 li{
   background-color: yellow;
 }
@@ -30,8 +32,47 @@ li em{
 .linguagens li:nth-child(-n+3){
   color: aqua;
 
+}  
+
+li.java-color{
+  background-color: pink;
+
 }
 
-[li name *= 'Java'] {
-  background-color: pink;
+a{
+  text-decoration: none;
+  color: blue;
 }
+
+a[href*="stack"]:hover{
+  color: orangered;
+  font-style: italic;
+}
+
+a[href*="w3schools"]:hover{
+  color: greenyellow;
+  font-style: italic;
+}
+
+a[href*="mozilla"]:hover{
+  color: black;
+  font-style: italic;
+}
+
+a[href*="devdocs"]:hover{
+  color: yellow;
+  font-style: italic;
+  background-color: black;
+}
+
+a[href*="betrybe"]:hover{
+  color: green;
+  font-style: italic;
+}
+
+
+
+
+
+
+
