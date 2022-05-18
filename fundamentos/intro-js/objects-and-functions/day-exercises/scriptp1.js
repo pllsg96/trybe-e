@@ -70,6 +70,22 @@ let leitor = {
   ],
 };
 
-
 console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " se chama " + "'" + leitor.livrosFavoritos[0].titulo + "'");
 
+
+// 7 -------- 
+console.log(" ");
+console.log("/---/--- ~> 7 <~ ---/---/");
+leitor.livrosFavoritos[1] = {
+  titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+  autor: 'JK Rowling',
+  editora: 'Rocco',
+}
+
+console.log(leitor.livrosFavoritos);
+
+// 8 -------- 
+console.log(" ");
+console.log("/---/--- ~> 8 <~ ---/---/");
+
+console.log("Julia tem " +leitor.livrosFavoritos.length+ " livros favoritos");
