@@ -14,6 +14,14 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // var tagLi = document.getElementsByTagName("li");
 // tagLi.addEventListener("click", addTechLi);
 
+// let nowImTech = document.getElementsByTagName("li");
+
+// nowImTech.addEventListener("click", changeMe);
+
+// function changeMe() {
+//   let whoAmI = nowImTech.event.target;
+//   console.log(whoAmI);
+// }
 // function addTechLi(){
 //   tagLi[0].classList.remove("tech");
 // }
@@ -45,31 +53,10 @@ const myWebpage = document.getElementById('my-spotrybefy');
 //   tagThirdLi.classList.add("tech");
 // }
 
-var clickLi = document.getElementsByTagName("li");
-clickLi[0].addEventListener("click", funcaoAdicionaTech0);
-clickLi[1].addEventListener("click", funcaoAdicionaTech1);
-clickLi[2].addEventListener("click", funcaoAdicionaTech2);
-
-function funcaoAdicionaTech0(){
-  clickLi[0].classList.add("tech");
-  clickLi[1].classList.remove("tech");
-  clickLi[2].classList.remove("tech");
-}
-function funcaoAdicionaTech1(){
-  clickLi[0].classList.remove("tech");
-  clickLi[1].classList.add("tech");
-  clickLi[2].classList.remove("tech");
-}
-function funcaoAdicionaTech2(){
-  clickLi[0].classList.remove("tech");
-  clickLi[1].classList.remove("tech");
-  clickLi[2].classList.add("tech");
-}
-
-
 // solução da trybe
 // console.log(document.querySelector(".tech"));
 // function handleChangeTech(event) {
+//   console.log(event);
 //   const techElement = document.querySelector('.tech');
 //   console.log(techElement);
 //   techElement.classList.remove('tech');
@@ -85,13 +72,45 @@ function funcaoAdicionaTech2(){
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
-let textbox = document.getElementById("input");
-textbox.addEventListener("input", writingTextBox);
+    // let textbox = document.getElementById("input");
+    // var clickLi = document.getElementsByTagName("li");
+    // textbox.addEventListener("input", writingTextBox);
 
-function writingTextBox() {
-  textbox.input.innerText = ""
-}
+    // clickLi[0].addEventListener("click", funcaoAdicionaTech0);
+    // clickLi[1].addEventListener("click", funcaoAdicionaTech1);
+    // clickLi[2].addEventListener("click", funcaoAdicionaTech2);
 
+    // function funcaoAdicionaTech0() {
+    //   clickLi[0].classList.add("tech");
+    //   clickLi[1].classList.remove("tech");
+    //   clickLi[2].classList.remove("tech");
+    //   writingTextBox(0);
+
+    // }
+    // function funcaoAdicionaTech1(){
+    //   clickLi[0].classList.remove("tech");
+    //   clickLi[1].classList.add("tech");
+    //   clickLi[2].classList.remove("tech");
+    //   writingTextBox(1);
+    // }
+    // function funcaoAdicionaTech2(){
+    //   clickLi[0].classList.remove("tech");
+    //   clickLi[1].classList.remove("tech");
+    //   clickLi[2].classList.add("tech");
+    //   writingTextBox(2);
+
+    // }
+
+
+    // function writingTextBox(index) {
+    //   clickLi[index].innerText = input.value;
+    // }
+
+    // myWebpage.addEventListener("dblclick", goToSpotrybefy);
+
+    // function goToSpotrybefy() {
+    //   myWebpage.
+    // }
 
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
