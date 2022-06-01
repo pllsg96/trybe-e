@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Formulário de inscrição</h1>
+  </header>
+  <main>
+    <form action="">
+      <div>
+        <label for="name">
+          Digite seu nome: 
+          <input type="text" name="nome" id="name" minlength="10" maxlength="50">
+        </label>
+      </div>
+      <div>
+        <label for="email">
+          Digite seu e-mail: 
+          <input type="email" name="email" id="email" minlength="10" maxlength="50">
+        </label>
+      </div>
+      <div>
+        <h2>Destino favorito</h2>
+        <label for="op1">
+          <input type="radio" name="option" id="op1">
+          Cidade
+        </label>
+        <label for="op2">
+          <input type="radio" name="option" id="op2">
+          Campo
+        </label>
+        <label for="op3">
+          <input type="radio" name="option" id="op3">
+          Praia
+        </label>
+        <label for="op4">
+          <input type="radio" name="option" id="op4">
+          Montanhas
+        </label>
+      </div>
+      <div>
+        <h2>Porque você deveria ser o ganhador do TrybeTrip?</h2>
+        <textarea name="areadetexto" id="textarea" cols="100" rows="5"></textarea>
+      </div>
+      <div>
+        <h2>Qual melhor data para sua viagem?</h2>
+        <label for="datatrip">
+          Data:
+          <input type="date" id="datatrip">
+        </label>
+      </div>
+      <div>
+        <label for="check1">
+          <input type="checkbox" id="check1">
+          Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        </label>
+      </div>
+      <div>
+        <label for="check2">
+          <input type="checkbox" id="check2">
+          Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros
+        </label>
+      </div>
+    </form>
+  </main>
+  
+</body>
+</html>
