@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+header{
+  background-color: #323433;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+header h1{
+  font-size: 16px; 
+}
+
+header h3{
+  font-size: 12px; 
+  font-weight:400;
+  margin-right: 10%;
+}
+
+#text-after-header{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+
+.header-img {
+  height: 100%;
+  margin-left: 10%;
+}
+
+section div{
+  background-color: #f1f1f1;
+  border-radius: 10%;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  text-align: center;
+  margin: 5px;
+}
+
+#tech-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+  margin: auto;
+}
+
+h4{
+  color: #606e89;
+  margin-bottom: 10px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+hr{
+  margin-top: 20px;
+  width: 300px;
+  height: 20px;
+  background-color: red;
+}
+
+footer{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
