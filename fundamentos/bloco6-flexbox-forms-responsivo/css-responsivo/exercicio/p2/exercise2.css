@@ -5,3 +5,103 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body{
+  margin: 5%;
+}
+
+header p{
+  font-size: xx-large;
+  text-align: center;
+}
+
+header ul{
+  display: none;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+aside ul{
+  font-size: x-large;
+}
+
+h1{
+  font-size: x-large;
+}
+
+p{
+  font-size: x-large;
+  text-align: justify;
+}
+
+@media screen and (max-width: 500px) {
+  
+body{
+  margin: 5%;
+}
+
+header p{
+  font-size: xx-large;
+  text-align: center;
+}
+
+header ul{
+  display: none;
+}
+
+h2{
+  font-size: xx-large;
+}
+
+aside ul{
+  font-size: x-large;
+}
+
+h1{
+  font-size: x-large;
+}
+
+p{
+  font-size: x-large;
+  text-align: justify;
+}
+
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 1299px) {
+  
+  body{
+    margin: 3%;
+  }
+
+  header p{
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  header ul{
+    display: block;
+    font-size: x-large;
+  }
+
+  h2{
+    font-size: xx-large;
+  }
+
+  aside ul{
+    font-size: x-large;
+  }
+
+  h1{
+    font-size: x-large;
+  }
+
+  p{
+    font-size: x-large;
+    text-align: justify;
+  }
+
+}
