@@ -1,0 +1,59 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.main-header{
+  font-size: 56px;
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px;
+}
+
+.bordered{
+  border: solid black 2px;
+}
+
+#picture-mandela{
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+}
+
+.main-section{
+  margin: 20px;
+}
+
+.bio-container{
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bio-info{
+  font-size: x-large;
+  width: 60%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+  .main-header{
+    font-size: x-large;
+    padding: 5px 0px;
+  }
+
+  .bio-container{
+    flex-direction: column;
+  }
+
+  #mandela-picture{
+    height: 250px;
+    width: 250px;
+  }
+
+  .bio-info{
+    width: 80%;
+  }
+}
