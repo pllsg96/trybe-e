@@ -45,3 +45,108 @@ figure {
 figcaption {
   font-size: .8em;
 }
+
+@media screen and (max-width:500px) {
+  body {
+    margin: 10%;
+  }
+  
+  article {
+    font-size: x-large;
+  }
+  
+  h1 {
+    font-size: x-large;
+  }
+  
+  
+  img {
+    max-width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  figcaption {
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:1299px) {
+  body {
+  }
+
+  main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  article {
+    font-size: x-large;
+  }
+  
+  h1 {
+    font-size: 56px;
+  }
+
+  h2{
+    font-size: 48px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  figcaption {
+    display: flex;
+    font-size: x-large;
+  }
+}
+
+@media screen and (min-width:1300px) {
+
+  main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    margin: auto;
+    
+    
+  }
+  
+  article {
+    font-size: x-large;
+  }
+  
+  h1 {
+    font-size: 56px;
+  }
+
+  h2{
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  figcaption {
+    display: flex;
+    font-size: x-large;
+  }
+}
