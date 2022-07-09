@@ -26,6 +26,7 @@ const getRandomAdvice = async () => {
     const json = await request.json();
     const { slip } = json;
     const { id, advice } = slip;
+    console.log(advice);
     return advice;  
   } catch(error) {
     return 'Always check your Internet connection and your URLs';
