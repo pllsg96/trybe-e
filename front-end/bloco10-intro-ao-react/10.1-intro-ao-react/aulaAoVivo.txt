@@ -1,0 +1,57 @@
+// Criando classes
+import React from 'react';
+import HelloWorld from './HelloWorld'
+
+Class NomeDoApp extends React.Component {
+// Se utiliza classes, pois uma classe consegue agrupar conjuntos de métodos e propriedades
+// Para dar heranças, utiliza extends e o nome da classe que desejamos extender
+  render(){
+    return(
+      // render faz com que seja renderizada em tela >>> UM JSX <<<
+      // Tudo que estiver aqui, deverá estar dentro de um container ex: <div></div> <section></section>
+      <div>
+        <HelloWorld />
+      </div>
+    );
+  }
+}
+
+export default NomeDoApp;
+
+
+// ----------------------------------------------------------------------
+// Exemplo com map - Essa seria a representação do código do arquivo HelloWorld.js
+// hello-world apenas é a classe para adicionar o arquivo css. 
+
+import React from 'react';
+import './App.css'; // Aqui apenas esta importanto o estilo
+
+class HelloWorld extends React.Component {
+  
+  render(){
+    const skills = ['react inicial', 'css', 'jsx', 'npm', 'npx'];
+    const skillsHtmlElement = skills.map((skill) => <li> { skill } </li> );
+
+    return (
+      <div>
+        <p className = 'hello-world'>Olá Pedro Luiz </p>
+
+        <ul>
+          { skillsHtmlElement }
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default HelloWorld;
+
+// ----------------------------------------------------------------------
+// CSS para o arquivo HelloWorld - Este código é a representação do arquivo App.css
+// hello-world apenas é a classe para adicionar o arquivo css. 
+
+.hello-world {
+  background-color: green;
+  color: white;
+  font-size: large;
+}
